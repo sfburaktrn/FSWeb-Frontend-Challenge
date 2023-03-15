@@ -102,4 +102,6 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-family: "Inter";
+  font-size: 25px;
 }
