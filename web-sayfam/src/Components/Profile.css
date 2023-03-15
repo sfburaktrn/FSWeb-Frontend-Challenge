@@ -1,0 +1,119 @@
+.profile {
+  background-color: #4731d3;
+  height: 500px;
+}
+
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+  height: 290.68px;
+  left: 240px;
+  top: 1446px;
+}
+.profile-yazisi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  padding-left: 318px;
+  padding-top: 75px;
+  color: #cbf281;
+}
+.basic-information-yazi {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 28px;
+  color: #ffffff;
+  padding-left: 318px;
+  padding-top: 50px;
+}
+
+.profile-intro {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 10px;
+  padding-left: 318px;
+  width: 300px;
+  height: 222px;
+  padding-top: 25px;
+}
+.profile-soru {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #02051e;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+}
+
+.profile-cevap {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.profile-foto {
+  width: 300px;
+  height: 290.68px;
+  border-radius: 18px;
+}
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 300px;
+  height: 290.68px;
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 1;
+}
+.about-me-yazi {
+  width: 300px;
+  height: 25px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 100%;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  padding-top: 50px;
+}
+.about-me-bilgi {
+  width: 300px;
+  height: 241.68px;
+  padding-top: 23px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}

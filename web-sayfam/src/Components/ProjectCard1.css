@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.projectcard1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 960px;
+  background: #ffffff;
+  border-radius: 12px;
+}
+
+.projectcard1foto {
+  box-sizing: border-box;
+  width: 360px;
+  height: 360px;
+  border-right: 1px solid #d2d2d2;
+  border-radius: 12px 0px 0px 12px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.projectcard1info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 32px;
+  gap: 24px;
+  width: 584px;
+  height: 247px;
+  font-family: "Inter";
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.projectcard1infobaslik {
+  width: 520px;
+  height: 32px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 100%;
+  color: #4338ca;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.projectcard1infobilgi {
+  width: 520px;
+  height: 100px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #383838;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.projectcardskills {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 6px;
+  width: 296.14px;
+  height: 31px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.react {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 18px 9px;
+  gap: 10px;
+  color: white;
+  width: 68px;
+  height: 31px;
+  background: #4731d3;
+  border-radius: 23px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.redux {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 18px 9px;
+  gap: 10px;
+  width: 72px;
+  height: 31px;
+  color: white;
+  background: #4731d3;
+  border-radius: 23px;
+  font-family: "Inter";
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.vercel {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px 18px 9px;
+  gap: 10px;
+  color: white;
+  width: 74px;
+  height: 31px;
+  background: #4731d3;
+  border-radius: 23px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.projectcardlinks {
+  width: 180.9px;
+  height: 12px;
+  display: flex;
+  order: 3;
+  flex-grow: 1;
+}
+.viewsite {
+  width: 96.48px;
+  height: 12px;
+  padding-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #120b39;
+}
+.githublink {
+  width: 69.68px;
+  height: 12px;
+  left: 143.22px;
+  top: 235px;
+  padding-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #120b39;
+}

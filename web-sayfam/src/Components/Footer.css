@@ -1,0 +1,105 @@
+.footer {
+  height: 454px;
+}
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  height: 290px;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.footer-head-text {
+  width: 483px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  color: #4731d3;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.footer-head-text2 {
+  width: 448px;
+  height: 72px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  text-align: center;
+  color: #120b39;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer-mail {
+  width: 269px;
+  height: 24px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  text-decoration-line: underline;
+  color: #4731d3;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 212px;
+  height: 35px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.twitter-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.codepen-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 6px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.atfoto-photo {
+  width: 55px;
+  height: 35px;
+  border-radius: 6px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.insta-photo {
+  width: 35px;
+  height: 35px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.formbutonu {
+  background-color: #4caf50;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
