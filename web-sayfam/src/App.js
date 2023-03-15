@@ -10,16 +10,14 @@ import Form from "./Components/Form";
 function App() {
   return (
     <div className="App">
-      <div className="App">
-        <Route exact path="/">
-          <Hero />
-          <Skills />
-          <Profile />
-          <Project />
-          <Footer />
-        </Route>
-        <Route exact path="/iletisimform" component={Form} />
-      </div>
+      <Route exact path="/">
+        <Hero />
+        <Skills />
+        <Profile />
+        <Project />
+        <Footer />
+      </Route>
+      <Route exact path="/iletisimform" component={Form} />
     </div>
   );
 }
