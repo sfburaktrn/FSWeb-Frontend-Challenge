@@ -1,3 +1,8 @@
+* {
+  font-family: "Inter";
+  font-size: 500;
+}
+
 form {
   padding: 20px;
   background-color: #f2f2f2;
@@ -22,10 +27,21 @@ textarea {
 
 button[type="submit"],
 .back {
-  background-color: #4caf50;
+  background-color: #cbf281;
   color: black;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+}
+.formcss {
+  background: linear-gradient(90deg, #4731d3 65%, #cbf281 60%);
+  display: grid;
+  align-items: start;
+  justify-content: center;
+  padding: 45px 240px 135px 240px;
+}
+.h1 {
+  font-family: "Inter";
+  font-size: 700;
 }

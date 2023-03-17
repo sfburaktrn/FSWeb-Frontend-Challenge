@@ -19,8 +19,8 @@ function Form() {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <h2>İletişim Formu</h2>
+    <form className="formcss" onSubmit={handleSubmit}>
+      <h1>İletişim Formu</h1>
       <br />
       <label htmlFor="name">İsim:</label>
       <input
