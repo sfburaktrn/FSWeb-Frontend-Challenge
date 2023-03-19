@@ -4,6 +4,8 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import "./Form.css";
+import * as yup from "yup";
+
 function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -12,10 +14,32 @@ function Form() {
   const history = useHistory();
   const notify = () => toast("Yazdıklarınız İletildi ✔️");
 
-  const handleSubmit = (e) => {
+  const schema = yup.object().shape({
+    name: yup
+      .string()
+      .min(2, "İsim en az iki karakter olmalıdır.")
+      .required("İsim boş bırakılamaz."),
+    email: yup
+      .string()
+      .email("Geçerli bir e-posta adresi giriniz.")
+      .required("E-posta boş bırakılamaz."),
+    message: yup
+      .string()
+      .min(10, "Mesaj en az 10 karakter olmalıdır.")
+      .max(50, "Mesaj en fazla 50 karakter olabilir.")
+      .required("Mesaj boş bırakılamaz."),
+  });
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    notify();
-    console.log("Veriler!!", { name, email, message });
+
+    try {
+      await schema.validate({ name, email, message }, { abortEarly: false });
+      notify();
+      console.log("Veriler!!", { name, email, message });
+    } catch (error) {
+      toast.error(error.errors[0]);
+    }
   };
 
   return (
