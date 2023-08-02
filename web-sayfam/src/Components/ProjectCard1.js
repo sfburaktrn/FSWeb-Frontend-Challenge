@@ -11,10 +11,9 @@ function ProjectCard1() {
       <div className="projectcard1info">
         <p className="projectcard1infobaslik">WORKINTECH</p>
         <p className="projectcard1infobilgi">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          In this module, I refactored an e-commerce page using the 'Context
+          API' and using my newly acquired knowledge of the 'Context API' and
+          extended the functionality of the app to make it more robust.
         </p>
         <div className="projectcardskills">
           <p className="react">React</p>
