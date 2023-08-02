@@ -44,10 +44,11 @@ function Profile() {
         <div className="about-me">
           <h2 className="about-me-yazi">ABOUT ME</h2>
           <p className="about-me-bilgi">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            After graduating in civil engineering, I turned to the software
+            industry due to my interest in technology. My aim is to develop
+            myself and become successful in this field that I am interested in.
+            In my opinion, my greatest qualities are my persistence and
+            analytical skills.
           </p>
         </div>
       </div>
