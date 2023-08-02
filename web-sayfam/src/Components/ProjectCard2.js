@@ -11,10 +11,9 @@ function ProjectCard2() {
       <div className="projectcard1info">
         <p className="projectcard1infobaslik">WORKINTECH</p>
         <p className="projectcard1infobilgi">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+          In this project, I created a simple calculator application that can
+          add, multiply and subtract numbers in any order, as well as add save
+          and callback features.
         </p>
         <div className="projectcardskills">
           <p className="react">React</p>
